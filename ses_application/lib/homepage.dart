@@ -3,6 +3,7 @@ import 'package:flutter/gestures.dart';
 import 'register.dart';
 import 'login.dart';
 import 'dashboard.dart';
+import 'program_card.dart';
 
 class EngineeringSchoolHomepage extends StatelessWidget {
   @override
@@ -24,7 +25,7 @@ class EngineeringSchoolHomepage extends StatelessWidget {
                 padding: EdgeInsets.all(10),
                 child: Row(
                   children: [
-                    Image.asset('lib/assets/uglogo.png', width: 65, height: 65),
+                    Image.asset('lib/assets/uglogo.png', width: 75, height: 75),
                     SizedBox(width: 10),
                     Expanded(
                       child: Text(
@@ -107,7 +108,7 @@ class EngineeringSchoolHomepage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Welcome to the School of Engineering Sciences!',
+                      'Our Vision',
                       style: TextStyle(
                         fontSize: 24,
                         fontWeight: FontWeight.bold,
@@ -116,7 +117,7 @@ class EngineeringSchoolHomepage extends StatelessWidget {
                     ),
                     SizedBox(height: 10),
                     Text(
-                      'Transforming the world through innovation and excellence in engineering education.',
+                      'To become a leading school of engineering sciences in Africa, committed to excellence in education, research, and innovation.',
                       style: TextStyle(
                         fontSize: 16,
                         color: Colors.blueGrey[900],
@@ -183,7 +184,6 @@ class EngineeringSchoolHomepage extends StatelessWidget {
                       children: [
                         Flexible(
                           fit: FlexFit.tight,
-                          flex: 1,
                           child: ProgramCard(
                             title: 'Computer Engineering',
                             image: 'lib/assets/computer.jpg',
@@ -191,7 +191,6 @@ class EngineeringSchoolHomepage extends StatelessWidget {
                         ),
                         Flexible(
                           fit: FlexFit.tight,
-                          flex: 1,
                           child: ProgramCard(
                             title: 'Biomedical Engineering',
                             image: 'lib/assets/medical.jpg',
@@ -199,7 +198,6 @@ class EngineeringSchoolHomepage extends StatelessWidget {
                         ),
                         Flexible(
                           fit: FlexFit.tight,
-                          flex: 1,
                           child: ProgramCard(
                             title: 'Food Process Engineering',
                             image: 'lib/assets/food.jpg',
@@ -207,7 +205,6 @@ class EngineeringSchoolHomepage extends StatelessWidget {
                         ),
                         Flexible(
                           fit: FlexFit.tight,
-                          flex: 1,
                           child: ProgramCard(
                             title: 'Material Science Engineering',
                             image: 'lib/assets/mat.jpeg',
@@ -215,7 +212,6 @@ class EngineeringSchoolHomepage extends StatelessWidget {
                         ),
                         Flexible(
                           fit: FlexFit.tight,
-                          flex: 1,
                           child: ProgramCard(
                             title: 'Agricultural Engineering',
                             image: 'lib/assets/agric.jpg',
@@ -284,35 +280,6 @@ class EngineeringSchoolHomepage extends StatelessWidget {
             ],
           ),
         ),
-      ),
-    );
-  }
-}
-
-class ProgramCard extends StatelessWidget {
-  final String title;
-  final String image;
-
-  ProgramCard({required this.title, required this.image});
-
-  @override
-  Widget build(BuildContext context) {
-    return Card(
-      child: Column(
-        children: [
-          Image.asset(image),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Text(
-              title,
-              style: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-                color: Colors.blueGrey[900],
-              ),
-            ),
-          ),
-        ],
       ),
     );
   }

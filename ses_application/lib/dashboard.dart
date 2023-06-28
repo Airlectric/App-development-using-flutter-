@@ -62,7 +62,7 @@ class _DashboardState extends State<Dashboard> {
               padding: const EdgeInsets.only(right: 8.0),
               child: Image.asset(
                 'lib/assets/new_ses.png',
-                height: 30.0,
+                height: 50.0,
               ),
             ),
             Text('Dashboard'),
