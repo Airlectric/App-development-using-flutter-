@@ -1,6 +1,5 @@
 # App-development-using-flutter-
 
-```
 # SES Application
 
 Welcome to the SES Application project! This is a mobile application built with Flutter that showcases a wide range of engineering programs offered by our institution.
@@ -69,4 +68,3 @@ Contributions to the SES Application project are welcome and encouraged! If you 
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
-```
