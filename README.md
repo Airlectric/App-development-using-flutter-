@@ -15,7 +15,7 @@ Welcome to the SES Application project! This is a mobile application built with 
 ## Demo 
 Watch a demo of the SES Application:
 
-![App Demo](demo/demo_video.mp4)
+![App Demo](demo/demo_app.gif)
 
 
 ## Features
