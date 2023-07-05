@@ -5,11 +5,18 @@
 Welcome to the SES Application project! This is a mobile application built with Flutter that showcases a wide range of engineering programs offered by our institution.
 
 ## Table of Contents
+- [Demo ](#demo)
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Demo 
+Watch a demo of the SES Application:
+
+![App Demo](demo/demo_video.mp4)
+
 
 ## Features
 - **Login Page**: Allows users to log in to the application using their credentials.
